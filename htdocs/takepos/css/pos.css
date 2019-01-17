@@ -90,7 +90,7 @@ div.wrapper{
 div.wrapper2{
 	float:left; /* important */
 	position:relative; /* important(so we can absolutely position the description div */
-	width:10.2%;
+	width:10.9%;
 	height:23%;
 	margin-top:0.5%;
 	margin-bottom:0.5%;
@@ -118,6 +118,70 @@ div.description{
 	opacity:0.8; /* transparency */
 	filter:alpha(opacity=80); /* IE transparency */
 	text-align:center;
+}
+.contenedor{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.fila{
+	margin: 0 auto;
+	width: 100%;
+	height: 327px;
+	padding: 10px 10px 10px 10px;
+}
+
+.div1{
+	/*position:absolute;
+	top:2%;
+	left:0.5%;
+	overflow: auto;*/
+	height:100%;
+	width: 32%;
+	float: left;
+	text-align: center;
+	padding-right: 8px;
+}
+
+.div2{
+	/*position:absolute;
+	top:1%;
+	left:32.5%;*/
+	height: 100%;
+	width: 32%;
+	font-size: 0;
+	float: left;
+	text-align: center;
+	padding-left: 11px;
+}
+
+.div3{
+	/*position:absolute;
+	top:1%;
+	left:65.5%;*/
+	height: 100%;
+	width: 32%;
+	float: left;
+	text-align: center;
+}
+
+.div4{
+	/*position:absolute;
+	top:39%;
+	left:0.3%;*/
+	height: 151%;
+	width: 34%;
+	float: left;
+}
+
+.div5{
+	/*position:absolute;
+	top:39%;
+	left:32%;*/
+	height: 151%;
+	width: 66%;
+	float: left;
 }
 
 @media only screen and (max-aspect-ratio: 6/4) {
