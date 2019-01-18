@@ -141,7 +141,6 @@ div.description{
 	width: 32%;
 	float: left;
 	text-align: center;
-	padding-right: 8px;
 }
 
 .div2{
@@ -182,6 +181,34 @@ div.description{
 	height: 151%;
 	width: 66%;
 	float: left;
+}
+
+@media only screen and (max-width: 768px) {
+
+	div.wrapper{
+		float:left; /* important */
+		position:relative; /* important(so we can absolutely position the description div */
+		width:20%;
+		height:23%;
+		margin:1%;
+		border: 0.1em solid;
+		box-shadow: 3px 3px 2px #888;
+		text-align: center;
+	}
+
+	div.wrapper2{
+		float:left; /* important */
+		position:relative; /* important(so we can absolutely position the description div */
+		width:10%;
+		height:23%;
+		margin-top:0.5%;
+		margin-bottom:0.5%;
+		margin-left:0.5%;
+		margin-right:0.5%;
+		border: 0.1em solid;
+		box-shadow: 3px 3px 2px #888;
+		text-align: center;
+	}
 }
 
 @media only screen and (max-aspect-ratio: 6/4) {
